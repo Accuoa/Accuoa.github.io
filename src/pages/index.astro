@@ -1,0 +1,46 @@
+---
+import '../styles/global.css';
+import projects from '../data/projects.json';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aiden — AI primitive explorations</title>
+    <meta
+      name="description"
+      content="Independent dev exploring AI primitives. Currently shipping experimental projects."
+    />
+  </head>
+  <body class="min-h-screen flex flex-col bg-white">
+    <main class="flex-1 max-w-xl mx-auto px-6 py-16">
+      <h1 class="text-3xl font-bold tracking-tight">Aiden</h1>
+      <p class="mt-4 text-slate-700">
+        Independent dev working on AI primitives — the lower-level pieces that
+        let AI clients, agents, and tools cooperate without anyone owning the
+        plumbing.
+      </p>
+
+      <h2 class="mt-12 text-xl font-semibold">Currently exploring</h2>
+      {projects.length === 0 ? (
+        <p class="mt-2 text-slate-500 italic">Active projects will appear here as they go live.</p>
+      ) : (
+        <ul class="mt-4 space-y-3">
+          {projects.map((p) => (
+            <li>
+              <a href={p.url} class="font-medium underline hover:no-underline">{p.name}</a>
+              <span class="text-slate-700"> — {p.tagline}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+
+      <h2 class="mt-12 text-xl font-semibold">Contact</h2>
+      <ul class="mt-2 space-y-1">
+        <li>GitHub: <a href="https://github.com/Accuoa" class="underline">@Accuoa</a></li>
+        <li>Twitter: <a href="https://twitter.com/aidenbolin" class="underline">@aidenbolin</a></li>
+      </ul>
+    </main>
+  </body>
+</html>

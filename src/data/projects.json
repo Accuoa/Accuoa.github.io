@@ -3,5 +3,10 @@
     "name": "cost-aware-router",
     "url": "https://accuoa.github.io/cost-aware-router/",
     "tagline": "OpenAI-compatible proxy that routes simple requests to local Ollama, complex ones to cloud — ~44% savings on a public benchmark."
+  },
+  {
+    "name": "memorystore",
+    "url": "https://accuoa.github.io/memorystore/",
+    "tagline": "Self-hosted MCP-native memory backend for AI assistants. SQLite + sqlite-vec, Ollama embeddings, zero external network calls — 86% top-1 recall on a 50-question benchmark."
   }
 ]

@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "name": "cost-aware-router",
+    "url": "https://accuoa.github.io/cost-aware-router/",
+    "tagline": "OpenAI-compatible proxy that routes simple requests to local Ollama, complex ones to cloud — ~44% savings on a public benchmark."
+  }
+]

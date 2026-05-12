@@ -23,5 +23,10 @@
     "name": "tool-revshare",
     "url": "https://accuoa.github.io/tool-revshare/",
     "tagline": "Revenue-share protocol for AI tool/skill creators. Vendor-neutral spec for marketplaces — manifest format + HMAC-signed reports + payout calculation. 100% verification + payout fidelity on 30 samples, zero external calls."
+  },
+  {
+    "name": "agent-reputation",
+    "url": "https://accuoa.github.io/agent-reputation/",
+    "tagline": "Vendor-neutral attestation format for agent reputation. Ed25519-signed attestations any verifier can check without pre-shared secrets. 100% verification fidelity on 30 samples, zero external calls."
   }
 ]

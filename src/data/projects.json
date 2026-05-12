@@ -13,5 +13,10 @@
     "name": "context-portability",
     "url": "https://accuoa.github.io/context-portability/",
     "tagline": "Move your AI memory between models. CLI converts ChatGPT exports to a portable format (spec in repo) + memorystore-ready JSONL. 100% fidelity on a 30-sample benchmark, zero external calls."
+  },
+  {
+    "name": "format-survives-upgrades",
+    "url": "https://accuoa.github.io/format-survives-upgrades/",
+    "tagline": "AI memory format versioning + migration. PMF v0.1 → v0.2 in one command. Vendor-neutral spec for how AI memory formats should version, with a reference CLI. 100% migration fidelity on 30 samples, zero external calls."
   }
 ]

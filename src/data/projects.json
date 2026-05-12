@@ -8,5 +8,10 @@
     "name": "memorystore",
     "url": "https://accuoa.github.io/memorystore/",
     "tagline": "Self-hosted MCP-native memory backend for AI assistants. SQLite + sqlite-vec, Ollama embeddings, zero external network calls — 86% top-1 recall on a 50-question benchmark."
+  },
+  {
+    "name": "context-portability",
+    "url": "https://accuoa.github.io/context-portability/",
+    "tagline": "Move your AI memory between models. CLI converts ChatGPT exports to a portable format (spec in repo) + memorystore-ready JSONL. 100% fidelity on a 30-sample benchmark, zero external calls."
   }
 ]

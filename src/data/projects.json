@@ -18,5 +18,10 @@
     "name": "format-survives-upgrades",
     "url": "https://accuoa.github.io/format-survives-upgrades/",
     "tagline": "AI memory format versioning + migration. PMF v0.1 → v0.2 in one command. Vendor-neutral spec for how AI memory formats should version, with a reference CLI. 100% migration fidelity on 30 samples, zero external calls."
+  },
+  {
+    "name": "tool-revshare",
+    "url": "https://accuoa.github.io/tool-revshare/",
+    "tagline": "Revenue-share protocol for AI tool/skill creators. Vendor-neutral spec for marketplaces — manifest format + HMAC-signed reports + payout calculation. 100% verification + payout fidelity on 30 samples, zero external calls."
   }
 ]

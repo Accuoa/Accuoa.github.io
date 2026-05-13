@@ -33,5 +33,10 @@
     "name": "p2p-agent-discovery",
     "url": "https://accuoa.github.io/p2p-agent-discovery/",
     "tagline": "A portable agent manifest format and a deterministic capability-matching algorithm. Discover agents by claim, without a central registry. 100% capability-match fidelity (30/30) · 0 calls · Strong band · 3 byte-identical runs"
+  },
+  {
+    "name": "agent-replay",
+    "url": "https://accuoa.github.io/agent-replay/",
+    "tagline": "Deterministic agent replay. Wrap your boundary calls; replay byte-identical. 100% replay fidelity (30/30) · 0 calls · Strong band · 3 byte-identical runs."
   }
 ]

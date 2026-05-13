@@ -28,5 +28,10 @@
     "name": "agent-reputation",
     "url": "https://accuoa.github.io/agent-reputation/",
     "tagline": "Vendor-neutral attestation format for agent reputation. Ed25519-signed attestations any verifier can check without pre-shared secrets. 100% verification fidelity on 30 samples, zero external calls."
+  },
+  {
+    "name": "p2p-agent-discovery",
+    "url": "https://accuoa.github.io/p2p-agent-discovery/",
+    "tagline": "A portable agent manifest format and a deterministic capability-matching algorithm. Discover agents by claim, without a central registry. 100% capability-match fidelity (30/30) · 0 calls · Strong band · 3 byte-identical runs"
   }
 ]
